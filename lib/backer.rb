@@ -19,6 +19,7 @@ attr_reader :name
   end 
   
   def back_project(project)
+    project = Project.
     @@backed_projects << Project.new   
     
   end 
