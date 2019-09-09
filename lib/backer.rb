@@ -1,7 +1,7 @@
 require 'pry'
 class Backer
 
- t
+ 
 attr_reader :name 
   
 @backed_projects = Array.new
