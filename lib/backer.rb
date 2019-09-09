@@ -8,7 +8,7 @@ attr_reader :name
   
   def initialize(name)
     @name=name 
-    @backed_array = []
+    @backed_projects = []
   end 
   
   
@@ -19,7 +19,7 @@ attr_reader :name
   
   def back_project(project)
     project = Project.new(title)
-    @backed_array << @project   
+    @backed_projects << project   
   end 
   
   
