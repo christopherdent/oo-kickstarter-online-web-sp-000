@@ -8,7 +8,7 @@ attr_reader :name
   
   def initialize(name)
     @name=name 
- 
+    @title = title 
     
   end 
   
