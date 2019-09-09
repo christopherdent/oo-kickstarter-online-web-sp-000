@@ -19,7 +19,8 @@ attr_reader :name
   end 
   
   def back_project(project)
-   
+  
+    Array.new << project
     
   end 
   
