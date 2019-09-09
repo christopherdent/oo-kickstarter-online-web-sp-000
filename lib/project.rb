@@ -15,4 +15,7 @@ class Project
     
   end 
   
+  def all
+  
+  
 end 
