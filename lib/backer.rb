@@ -19,7 +19,7 @@ attr_reader :name
   
   def back_project(project)
   
-    @backed_projects 
+    @backed_projects = backed_projects
     
     binding.pry
   end 
