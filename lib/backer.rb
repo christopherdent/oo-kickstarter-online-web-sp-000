@@ -4,7 +4,7 @@ class Backer
 attr_accessor :title 
 attr_reader :name 
   
-@@backed_projects = []
+ 
   
   def initialize(name)
     @name=name 
@@ -15,12 +15,12 @@ attr_reader :name
 
     
   def backed_projects
-    @@backed_projects = []
+    @backed_projects = []
   end 
   
   def back_project(project)
     
-    @@backed_projects << project  
+    Self.backed_projects << project  
     
   end 
   
