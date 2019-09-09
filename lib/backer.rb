@@ -20,7 +20,7 @@ attr_reader :name
   
   def back_project(project)
     
-   
+   binding.pry
     
   end 
   
