@@ -21,6 +21,7 @@ attr_reader :name
   
     @backed_projects << project
     
+    binding.pry
   end 
   
   
