@@ -18,7 +18,7 @@ attr_reader :name
   
   
   def back_project(project)
-    @backed_array << project 
+    @backed_array << Project.new  
   end 
   
   
