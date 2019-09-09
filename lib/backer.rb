@@ -4,11 +4,11 @@ class Backer
  
 attr_reader :name 
   
-  backed_array = []
+  
   
   def initialize(name)
     @name=name 
-    
+    @backed_array = []
   end 
   
   
@@ -18,7 +18,7 @@ attr_reader :name
   
   
   def back_project(project)
-    backed_array << project 
+    @@backed_array << project 
   end 
   
   
