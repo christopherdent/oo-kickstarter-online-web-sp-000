@@ -1,7 +1,7 @@
 require 'pry'
 class Backer
 
- attr_accessor :title
+ attr_accessor :project
 attr_reader :name 
   
   
