@@ -4,12 +4,12 @@ class Backer
  t
 attr_reader :name 
   
-  
+@backed_projects = Array.new
   
   def initialize(name)
     @name=name 
-    @project = project
-    @backed_projects = []
+ 
+    
   end 
   
 
