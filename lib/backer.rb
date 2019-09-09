@@ -12,15 +12,14 @@ attr_reader :name
     
   end 
   
-
-    
   def backed_projects
     @backed_projects = []
+    
   end 
   
   def back_project(project)
   
-    Array.new << project
+    @backed_projects << project 
     
   end 
   
