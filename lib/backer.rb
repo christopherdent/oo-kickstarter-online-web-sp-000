@@ -4,7 +4,7 @@ class Backer
  
 attr_reader :name 
   
-  @project = Project.new(title)
+  
   
   def initialize(name)
     @name=name 
@@ -17,7 +17,8 @@ attr_reader :name
   end 
   
   
-  def back_project(@project)
+  def back_project(project)
+    project = Project.new(title)
     @backed_array << @project   
   end 
   
