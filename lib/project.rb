@@ -1,9 +1,8 @@
 require "pry"
 
 class Project
-  attr_reader :title
-  attr_accessor :backers 
-  
+  attr_reader :title, :backers 
+
   
   
 @@all = []
@@ -19,6 +18,10 @@ class Project
     @@all 
     
   end 
+  
+  def add_backer(backer)
+    @backers << backer 
+  
   
   
 end 
