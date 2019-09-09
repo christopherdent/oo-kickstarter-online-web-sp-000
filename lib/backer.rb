@@ -20,6 +20,7 @@ attr_reader :name
   
   def back_project(project)
     backed_projects = []
+    binding.pry 
     backed_projects << project  
     
   end 
