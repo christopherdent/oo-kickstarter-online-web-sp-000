@@ -8,7 +8,7 @@ attr_reader :name
   
   def initialize(name)
     @name=name 
-    
+    @project = project 
   end 
   
   
@@ -18,6 +18,7 @@ attr_reader :name
   
   
   def back_project(project)
+    
     @backed_projects << project   
   
     
