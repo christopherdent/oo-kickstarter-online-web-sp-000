@@ -11,7 +11,7 @@ class Project
   def initialize(title)
     @title = title 
     @backers = []
-    @@all = 
+    @@all << self
     
   end 
   
